@@ -1,0 +1,24 @@
+Machine Learning - Lab 1
+==========================
+Shivam Mittal
+2015CSB1032
+
+Compiling and running code
+----------------------------
+1. Go to the code folder. Open terminal there.
+$ g++ main.cpp -O3
+(Note : Please compile using -O3, otherwise a lot of time would be consumed)
+$ ./a.out ../data.feat 2
+$ ./a.out ../data.feat 3
+$ ./a.out ../data.feat 4
+$ ./a.out ../data.feat 5
+
+Make sure that ../data.feat is available, and ../selected-feature-indices.txt is available.
+If the data file and feature file is present somewhere else, the code can be run by:
+./a.out data_file_location exptno feature_file_location
+
+
+For generating data and selected features, make sure ../aclImdb is available.
+$ g++ Q1.cpp
+$ ./a.out
+../data.feat and ../selected-feature-indices.txt would be generated
